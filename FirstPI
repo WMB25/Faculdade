@@ -1,0 +1,164 @@
+let agua = 0;
+let estrelas = [];
+var CicloDaVida = 400;
+class trovoada {
+  // x= do raio; y= do raio; adr = angulo de rotaçao, cdr= comprimento do raio; pfd= profundidade; fdr= retorno do raio(fim)
+  constructor(x, y, adr, cdr, pfd = 0) {
+    this.x = x;
+    this.y = y;
+    this.adr = adr;
+    this.cdr = cdr;
+    this.pfd = pfd;
+    this.fdr = false;
+    noiseSeed(40);
+  }
+//verificando se o raio chegou ao fim
+  update() {
+    
+    if (this.y > height) {
+      this.fdr = true;
+    }
+  }
+//desenho do raio
+  draw() {
+    push();
+    translate(this.x, this.y);
+    rotate(this.adr);
+    stroke(255);
+    strokeWeight(2);
+    noFill();
+    
+    //desenho do raio ramificação
+    beginShape();
+    for (let i = 0; i < this.cdr; i++) {
+      vertex(i, noise(i * 0.05) * 3);
+    }
+    endShape();
+//novas ramificaçoes.
+    if (frameCount % 80 == 0 && !this.fdr && this.pfd < 10) {
+      translate(this.cdr, noise((this.cdr + 1) * 0.05) * 3);
+      
+      if (random(1) < 0.3) {
+        // aleatoriedade de apariçao e pfd.
+        let raio = new trovoada(0, 0, random(-0.5, 0.5), random(30, 60), this.pfd + 1);
+        raio.draw();
+        raio.update();
+      }
+
+      let raio2 = new trovoada(0,0,random(-0.5, 0.5),random(30, 60),this.pfd + 1);
+      raio2.draw();
+      raio2.update();
+      this.fdr = true;
+      //valida o fim para voltar
+    }
+    pop();
+  }
+}
+function setup() {
+  createCanvas(710, 400);
+  //Raios
+  //primeiro raio
+  Raio = new trovoada(width / 2, -50, PI / 2, 50);
+  for (let i = 0; i < 200; i++) {
+    //posicionamento das estrelas
+    estrelas [i] = createVector(random(0, width), random(0, height - 250));
+  }
+}
+function draw() {
+    background(0);
+  frameRate(30);
+  
+  //Raios
+  Iluminação();
+  
+  //Praia  
+    Fronteira();
+  
+  //Mar.
+    EspelhoDaAlma();  
+}
+function EspelhoDaAlma(){
+    noStroke();
+    fill(35,35,142);
+    //começo das ondas!
+    beginShape();
+    
+    let Aondas = 0;
+    
+    //gerando as ondas
+    for(let x = 0; x <= width; x+= 10){
+    
+    //alura das ondas!
+    let y= map(noise(Aondas, agua), 0, 1, 200, 300)
+  
+    vertex(x, y);
+    Aondas +=0.05;
+  }
+    // movimento da agua
+    agua+=0.01;
+    vertex(width,height);
+    vertex(0, height);
+    endShape(CLOSE);
+  
+}
+function Fronteira(){
+  
+  //prédios 
+  fill(220,220,220);
+  rect(10,125,50,100);
+  
+  fill(100,149,237);
+  rect(97,100,50,100);
+  
+  fill(245,245,245)
+  rect(55,135,45,100);
+  
+  fill(255,228,196);
+  rect(190,120,50,100);
+  
+  fill(188,143,143);
+  rect(245,90,100,200);
+  
+  fill(135,206,235)
+  rect(370,100,50,100);
+  
+  fill(160,82,45);
+  rect(430,190,50,20);
+  
+  fill(220,220,220)
+  rect(500,85,45,200);
+  
+  fill(100,149,237);
+  rect(570,125,50,100);
+  
+  fill(160,82,45);
+  rect(650,100,50,100);
+  
+  fill(220,220,220);
+  rect(610,135,45,100);
+//Areia
+  fill(193,147,107);
+   rect(0, 200, 750, 400);
+}
+function Iluminação(){
+  background(0, 50);
+ 
+     noStroke()
+  // desenho das estrelas
+  fill(255, mouseY);
+  for (let i = 0; i < 200; i++) {
+    //formato das estrelas 
+    ellipse(estrelas[i].x, estrelas[i].y, random(1, 5), random(1, 5));
+  }
+  Raio.draw();
+  Raio.update();
+  
+  if (Raio.fdr) {
+    background(255, 50);
+    noStroke();
+    fill(255, 20);
+   
+    Raio.draw();
+    Raio = new trovoada(random(100, width - 100), -50, PI / 2, 50);
+  }  
+}
