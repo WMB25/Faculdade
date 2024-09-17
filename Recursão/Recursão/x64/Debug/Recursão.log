@@ -1,0 +1,4 @@
+﻿  recursao.c
+C:\Users\walis\source\repos\Recursão\Recursão\recursao.c(113,1): warning C4715: 'golsAB': nem todos os caminhos de controle retornam um valor
+C:\Users\walis\source\repos\Recursão\Recursão\recursao.c(100,1): warning C4715: 'ConversorDB': nem todos os caminhos de controle retornam um valor
+  Recursão.vcxproj -> C:\Users\walis\source\repos\Recursão\x64\Debug\Recursão.exe
