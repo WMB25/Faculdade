@@ -1,0 +1,16 @@
+;Windows XP
+;emu8086 - assembler and microprocessor emulator 4.08
+
+.model small
+.data
+  msg db "Hello, World!$"
+.code
+  mov dx, @data
+  mov ds, dx
+  lea dx, msg
+  mov ah, 09h
+  int 21h
+
+  mov ah, 4ch
+  int 21h
+end
