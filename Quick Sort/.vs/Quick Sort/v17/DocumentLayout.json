@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\walis\\source\\repos\\Quick Sort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D522A70-35AD-4CD7-A398-52C025024C64}|Quick Sort\\Quick Sort.vcxproj|C:\\Users\\walis\\source\\repos\\Quick Sort\\Quick Sort\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3D522A70-35AD-4CD7-A398-52C025024C64}|Quick Sort\\Quick Sort.vcxproj|solutionrelative:Quick Sort\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\walis\\source\\repos\\Quick Sort\\Quick Sort\\main.c",
+              "RelativeDocumentMoniker": "Quick Sort\\main.c",
+              "ToolTip": "C:\\Users\\walis\\source\\repos\\Quick Sort\\Quick Sort\\main.c",
+              "RelativeToolTip": "Quick Sort\\main.c",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-30T20:25:49.583Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
