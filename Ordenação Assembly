@@ -1,0 +1,64 @@
+.model small
+.data
+    array db "215786"
+    msgFim db "Array Ordenado: $"
+    space db 0Ah, 0DH, "$"
+.code
+    ImprimeS macro str
+    lea dx, str
+    mov ah, 09h
+    int 21h
+endm
+
+Enter macro 
+      IpremeS space
+endm
+
+    mov ax, @data
+    mov ds, ax
+
+    mov si, 0h
+    mov bx, 1h
+
+Inicio_comparacao:
+    cmp array, "$"
+    je Fim
+
+    mov ch, array[bx]
+
+    mov si, bx
+    dec si
+Loop_comparacao:
+    cmp si, 0h
+    jb Fim_comparacao
+
+    cmp array[si], ch
+    jg  Troca
+
+Fim_comparacao:
+    mov array[si + 1h], ch
+    inc bx
+    jmp Inicio_comparacao
+
+Troca:
+    mov cl, array[si]
+    mov array[si + 1], cl
+    dec si
+
+    imprimeS array
+    Enter
+
+    jmp Loop_comparacao
+
+Fim:
+    imprimeS msgFim
+    Enter
+    imprimeS array
+
+    mov ah, 4ch
+    int 21h
+end
+
+
+
+
