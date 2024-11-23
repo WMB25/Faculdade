@@ -1,3 +1,4 @@
+;emu8086 - 4.08
 .model small
 .data
     array db "215786"
