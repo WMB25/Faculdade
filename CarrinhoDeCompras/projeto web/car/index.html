@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrinho de compras </title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2><a href="/">Caramelo Patiserrie</a></h2>
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--inicio do carrinho-->
+        <div class="Tcart"><b>Seu Carrinho</b></div>
+        <div class="Conteudo">
+            <section>
+                <table>
+                   
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="produto">
+                                    <input type="checkbox">
+                                    <img src="https://picsum.photos/id/237/100/100" alt="Tesntando">
+                                    <div class="infoP">
+                                        <div class="nomeP"><b>Bolo belga</b></div>
+                                        <div class="tipoP"> choco Bolo belga</div>
+                                        <div class="valorP">R$100</div>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td></td>
+
+                            <td>
+                                <div class="QTD">
+                                    <button>+</button>
+                                    <span>1</span>
+                                    <button>-</button>
+                                </div>
+                            </td>
+                            <td><button class="remo"><i class='bx bx-x-circle' ></i></button></td>
+                        </tr>
+                    </tbody>
+
+                    </table>
+                    <div class="cupon">
+                        <input type="text" id="coupon-code" placeholder="Digite o cupom">
+                        <button class="botC">Aplicar Cupom</button>
+                        <!--mensagem de cupom--> 
+                        <p id="coupon-message"></p>
+                    </div>
+            </section>
+
+
+            <aside>
+                <div class="caixa">
+                    <h1>Resumo do pedido</h1>
+                    <div class="infoC">
+                        <div><span>itens</span>
+                            <spana>1</spana>
+                        </div>
+                        <div><span>deconto</span><span>0</span></div>
+                    </div>
+                    <footer>
+                        <span>total</span>
+                        <span>100</span>
+                    </footer>
+
+                <button>finalizar</button>
+                </div>
+
+            </aside>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
