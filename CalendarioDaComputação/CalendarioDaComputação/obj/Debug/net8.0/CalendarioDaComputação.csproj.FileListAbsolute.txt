@@ -1,0 +1,14 @@
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\bin\Debug\net8.0\CalendarioDaComputação.exe
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\bin\Debug\net8.0\CalendarioDaComputação.deps.json
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\bin\Debug\net8.0\CalendarioDaComputação.runtimeconfig.json
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\bin\Debug\net8.0\CalendarioDaComputação.dll
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\bin\Debug\net8.0\CalendarioDaComputação.pdb
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\obj\Debug\net8.0\CalendarioDaComputação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\obj\Debug\net8.0\CalendarioDaComputação.AssemblyInfoInputs.cache
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\obj\Debug\net8.0\CalendarioDaComputação.AssemblyInfo.cs
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\obj\Debug\net8.0\CalendarioDaComputação.csproj.CoreCompileInputs.cache
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\obj\Debug\net8.0\CalendarioDaComputação.dll
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\obj\Debug\net8.0\refint\CalendarioDaComputação.dll
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\obj\Debug\net8.0\CalendarioDaComputação.pdb
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\obj\Debug\net8.0\CalendarioDaComputação.genruntimeconfig.cache
+C:\Users\walis\source\repos\CalendarioDaComputação\CalendarioDaComputação\obj\Debug\net8.0\ref\CalendarioDaComputação.dll

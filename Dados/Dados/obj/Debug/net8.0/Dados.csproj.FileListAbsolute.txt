@@ -1,0 +1,14 @@
+C:\Users\walis\source\repos\Dados\Dados\obj\Debug\net8.0\Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\walis\source\repos\Dados\Dados\obj\Debug\net8.0\Dados.AssemblyInfoInputs.cache
+C:\Users\walis\source\repos\Dados\Dados\obj\Debug\net8.0\Dados.AssemblyInfo.cs
+C:\Users\walis\source\repos\Dados\Dados\obj\Debug\net8.0\Dados.csproj.CoreCompileInputs.cache
+C:\Users\walis\source\repos\Dados\Dados\bin\Debug\net8.0\Dados.exe
+C:\Users\walis\source\repos\Dados\Dados\bin\Debug\net8.0\Dados.deps.json
+C:\Users\walis\source\repos\Dados\Dados\bin\Debug\net8.0\Dados.runtimeconfig.json
+C:\Users\walis\source\repos\Dados\Dados\bin\Debug\net8.0\Dados.dll
+C:\Users\walis\source\repos\Dados\Dados\bin\Debug\net8.0\Dados.pdb
+C:\Users\walis\source\repos\Dados\Dados\obj\Debug\net8.0\Dados.dll
+C:\Users\walis\source\repos\Dados\Dados\obj\Debug\net8.0\refint\Dados.dll
+C:\Users\walis\source\repos\Dados\Dados\obj\Debug\net8.0\Dados.pdb
+C:\Users\walis\source\repos\Dados\Dados\obj\Debug\net8.0\Dados.genruntimeconfig.cache
+C:\Users\walis\source\repos\Dados\Dados\obj\Debug\net8.0\ref\Dados.dll
