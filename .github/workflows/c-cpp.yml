@@ -21,3 +21,9 @@ jobs:
       run: make check
     - name: make distcheck
       run: make distcheck
+    - name: debug
+      run: |
+        echo "Configuration completed"
+        echo "Make completed"
+        echo "Make check completed"
+        echo "Make distcheck completed"
