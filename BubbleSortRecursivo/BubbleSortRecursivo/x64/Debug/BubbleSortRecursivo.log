@@ -1,0 +1,3 @@
+﻿  Origem.c
+C:\Users\walis\source\repos\BubbleSortRecursivo\BubbleSortRecursivo\Origem.c(33,8): warning C4244: 'função': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  BubbleSortRecursivo.vcxproj -> C:\Users\walis\source\repos\BubbleSortRecursivo\x64\Debug\BubbleSortRecursivo.exe

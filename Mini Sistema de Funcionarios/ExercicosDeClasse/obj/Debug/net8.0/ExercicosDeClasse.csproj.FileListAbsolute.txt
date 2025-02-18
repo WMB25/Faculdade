@@ -1,0 +1,14 @@
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\obj\Debug\net8.0\ExercicosDeClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\obj\Debug\net8.0\ExercicosDeClasse.AssemblyInfoInputs.cache
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\obj\Debug\net8.0\ExercicosDeClasse.AssemblyInfo.cs
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\obj\Debug\net8.0\ExercicosDeClasse.csproj.CoreCompileInputs.cache
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\bin\Debug\net8.0\ExercicosDeClasse.exe
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\bin\Debug\net8.0\ExercicosDeClasse.deps.json
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\bin\Debug\net8.0\ExercicosDeClasse.runtimeconfig.json
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\bin\Debug\net8.0\ExercicosDeClasse.dll
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\bin\Debug\net8.0\ExercicosDeClasse.pdb
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\obj\Debug\net8.0\ExercicosDeClasse.dll
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\obj\Debug\net8.0\refint\ExercicosDeClasse.dll
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\obj\Debug\net8.0\ExercicosDeClasse.pdb
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\obj\Debug\net8.0\ExercicosDeClasse.genruntimeconfig.cache
+C:\Users\walis\source\repos\ExercicosDeClasse\ExercicosDeClasse\obj\Debug\net8.0\ref\ExercicosDeClasse.dll
